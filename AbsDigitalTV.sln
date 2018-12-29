@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbsDigitalTV.DataAccessLayer", "AbsDigitalTV.DataAccessLayer\AbsDigitalTV.DataAccessLayer.csproj", "{3D890BCA-C26F-4CE0-B9EA-64888AA0E309}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbsDigitalTV.PresentationLayer", "AbsDigitalTV.PresentationLayer\AbsDigitalTV.PresentationLayer.csproj", "{30759061-ACFB-4167-8060-FD20693490C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbsDigitalTV.WebAPI", "AbsDigitalTV.WebAPI\AbsDigitalTV.WebAPI.csproj", "{47DF602F-5A35-4333-BB1B-E776D6E5499E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLayer", "BusinessLayer", "{80CB2F57-F134-4529-899F-A7098555CDDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccesLayer", "DataAccesLayer", "{EC73E4D4-2E7D-4EB6-9122-7254F74961C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PresentationLayer", "PresentationLayer", "{5EA3DD0B-8DF2-4B0D-A874-E06D785C6E7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbsDigital.BusinessLayer", "AbsDigital.BusinessLayer\AbsDigital.BusinessLayer.csproj", "{62D1B1D8-3E4D-416C-BA88-4572ACABBD90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbsDigital.BusinessLayer.Test", "AbsDigital.BusinessLayer.Test\AbsDigital.BusinessLayer.Test.csproj", "{4BDDF67D-7651-4C47-9833-377C9D3EFCA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D890BCA-C26F-4CE0-B9EA-64888AA0E309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D890BCA-C26F-4CE0-B9EA-64888AA0E309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D890BCA-C26F-4CE0-B9EA-64888AA0E309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D890BCA-C26F-4CE0-B9EA-64888AA0E309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30759061-ACFB-4167-8060-FD20693490C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30759061-ACFB-4167-8060-FD20693490C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30759061-ACFB-4167-8060-FD20693490C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30759061-ACFB-4167-8060-FD20693490C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47DF602F-5A35-4333-BB1B-E776D6E5499E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47DF602F-5A35-4333-BB1B-E776D6E5499E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47DF602F-5A35-4333-BB1B-E776D6E5499E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47DF602F-5A35-4333-BB1B-E776D6E5499E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62D1B1D8-3E4D-416C-BA88-4572ACABBD90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D1B1D8-3E4D-416C-BA88-4572ACABBD90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D1B1D8-3E4D-416C-BA88-4572ACABBD90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D1B1D8-3E4D-416C-BA88-4572ACABBD90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BDDF67D-7651-4C47-9833-377C9D3EFCA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BDDF67D-7651-4C47-9833-377C9D3EFCA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BDDF67D-7651-4C47-9833-377C9D3EFCA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BDDF67D-7651-4C47-9833-377C9D3EFCA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D890BCA-C26F-4CE0-B9EA-64888AA0E309} = {EC73E4D4-2E7D-4EB6-9122-7254F74961C9}
+		{30759061-ACFB-4167-8060-FD20693490C5} = {5EA3DD0B-8DF2-4B0D-A874-E06D785C6E7F}
+		{47DF602F-5A35-4333-BB1B-E776D6E5499E} = {80CB2F57-F134-4529-899F-A7098555CDDC}
+		{62D1B1D8-3E4D-416C-BA88-4572ACABBD90} = {80CB2F57-F134-4529-899F-A7098555CDDC}
+		{4BDDF67D-7651-4C47-9833-377C9D3EFCA2} = {80CB2F57-F134-4529-899F-A7098555CDDC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FBCC86F-C6CC-4065-801C-E0013017D96F}
+	EndGlobalSection
+EndGlobal
